@@ -1,0 +1,27 @@
+case1:SSL服务端证书校验
+      检查项：需要自己实现X509TrustManager的三个校验接口
+public void basicHttpsGetIgnoreCertificateValidation() throws Exception {
+    String url = "https://kyfw.12306.cn/otn/"; 
+    TrustManager[] trustAllCerts = new TrustManager[] {
+        new X509TrustManager() {
+            public X509Certificate[] getAcceptedIssuers() {
+                return null;
+            }
+            public void checkClientTrusted(X509Certificate[] certs, String authType) {
+                // don't check
+            }
+            public void checkServerTrusted(X509Certificate[] certs, String authType) {
+                // don't check
+            }
+        }
+    }; 
+    SSLContext ctx = SSLContext.getInstance("TLS");
+    ctx.init(null, trustAllCerts, null);
+    LayeredConnectionSocketFactory sslSocketFactory = new SSLConnectionSocketFactory(ctx);
+    CloseableHttpClient httpclient = HttpClients.custom().setSSLSocketFactory(sslSocketFactory).build();
+    HttpGet request = new HttpGet(url);
+    request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) ...");
+    CloseableHttpResponse response = httpclient.execute(request);
+    String responseBody = readResponseBody(response);
+    System.out.println(responseBody);
+}
