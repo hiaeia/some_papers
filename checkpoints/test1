@@ -1,0 +1,187 @@
+/system/app        系统apk
+========================================
+AirSharing.apk                        多屏互动                不用可删
+BaiduInput_for_Huawei.apk        输入法                        可删
+BasicDreams.apk                        动态壁纸                可删
+Bluetooth.apk                        蓝牙功能                不可删
+Calculator.apk                        计算器                        可删
+Calendar.apk                        日历界面                不可删
+CalendarProvider.apk                日历数据                同上
+CertInstaller.apk                证书安装                不可删
+ChargingAlbum.apk                充电电子相册                可删
+ChnTelecomAutoReg.apk                电信自动注册                可删
+Diagnose.apk                        数据业务诊断软件                可删
+DocumentsUI.apk                        选择文档界面                不可删        
+DownloadProviderUi.apk                下载界面                不可删
+EmergencyData.apk                备份数据用                如果不用华为备份可删
+FaceLock.apk                        人脸解锁                可删
+Galaxy4.apk                        动态壁纸                可删
+GameBox.apk                        游戏中心                 可删
+GoogleTTS.apk                        语音转换TextToSpeech        建议保留
+HTMLViewer.apk                        HTML源码查看器                建议不删
+HWCardManager.apk                双卡设置                不可删
+HoloSpiralWallpaper.apk                动态壁纸                可删
+HwAllBackup.apk                        华为备份                如果用钛备份不用这个，可删
+HwAppObserver.apk                未知                        可删        
+HwAps.apk                        未知                        可删                
+HwBluetoothImport.apk                蓝牙导入导出联系人        不可删
+HwBone.apk                        未知
+HwCAService.apk                        诺亚CA（日志）                可删
+HwDeskClock.apk                        闹钟                        看着办                        
+HwFMRadio.apk                        收音机                        看着办
+HwFileManager.apk                华为文件管理                可删
+HwFloatMms.apk                        浮动短信                可删
+HwFloatTasks.apk                悬浮菜单                可删，建议仅冻结
+HwHiSync.apk                        华为云                        可删
+HwID.apk                        华为ID                        可删
+HwInternetAudioService.apk        互联网音频IMCs                建议删除，如果仅冻结还会在后台运行
+HwKaraokeEffect.apk                卡拉OK                        可删
+HwLauncher6.apk                        华为桌面                不用的话可以删，比如用google now luancher或nova launcher可完全替代
+HwLogCollectService.apk                Log记录服务                可删
+HwMediaCenter.apk                音乐                        可删，但是删除之后锁屏界面双击不会出现音乐播放
+HwMirror.apk                        镜子                        看着办
+HwMotionRecognition.apk                手势                        可删
+HwNotePad.apk                        华为记事本                可删
+HwOUC.apk                        系统升级服务                如果修改了系统分区就不能OTA升级了，留着这个也没什么用
+HwPayService.apk                华为支付                可删
+HwPowerMonitor.apk                电源管理                可删，如果仅冻结还会在后台运行
+HwPowerGenieEngine3.apk                省电精灵                可删
+HwPrivacyMode.apk                隐私模式？
+HwPushService.apk                华为推送                建议删除，如果仅冻结还会在后台运行
+HwQrcodeDispatcher.apk                二维码扫描                可删
+HwRemoteController.apk                遥控器                        看着办
+HwResolver.apk                        解析器                        不可删，否则影响程序共享
+HwSoundRecorder.apk                华为录音机                可删
+HwSpeechService.apk                讯飞语音引擎                可删
+HwStartupGuide.apk                华为初始化导航                可删
+HwSystemManager.apk                系统管理器                如果要用权限管理等，就保留，否则可删
+HwThemeManager.apk                主题                        建议保留
+HwTouchplus.apk                        灵犀一指                不用的话可以删
+HwUserExperience.apk                华为用户体验                可删
+HwVAssistant.apk                语音助手                可删
+HwVDrive.apk                        驾驶模式                可删        
+HwWallet.apk                        荣耀钱包                可删
+HwWeatherClock.apk                华为天气widget                可删
+HwWiFiDirect.apk                wifi direct功能                建议不删
+KeyChain.apk                        秘钥链                        不可删
+LatinIME.apk                        原生输入法                可删
+LiveWallpapers.apk                动态壁纸                可删
+LiveWallpapersPicker.apk        动态壁纸选择                建议不删
+MMIFunctionTest.apk                工厂MMI测试                建议不删
+MMITest_II.apk                        工厂MMI测试                建议不删
+MagicSmokeWallpapers.apk        动态壁纸                可删
+Magnifier.apk                        放大镜                        可删
+NoiseField.apk                        动态壁纸                可删
+OMACP.apk                        配置信息用于OTA升级        如果不用OTA升级就可以删掉了        
+PacProcessor.apk                处理代理自动配置的        不可删
+PackageInstaller.apk                包安装界面                不可删
+PartnerBookmarksProvider.apk        书签                        建议不删
+PhaseBeam.apk                        动态壁纸                可删
+PhotoTable.apk                        屏保                        看着办
+PrintSpooler.apk                打印                        可删
+ProjectMenuAct.apk                工程菜单                建议不删
+SmartcardService.apk                智能卡服务                不可删
+Stk.apk                                SIM卡STK                建议不删
+StreamingProvider.apk                流媒体                        建议不删
+SystemUI.apk                        系统UI                        不可删
+TelephonyProvider.apk                通话信息存储服务                不可删
+TouchpalModuleOEM.apk                触宝公共号码                不用可删
+UEIAndroidServicesSDK.apk        UEI公司的遥控驱动库        不用遥控的话可删
+UEInfoCheck.apk                        自注册短信相关                可删
+UserDictionaryProvider.apk        用户词典                可删
+VisualizationWallpapers.apk        动态壁纸                可删
+WAPPushManager.apk                WAP推送管理                不用的话可删
+alipayScan.apk                        支付宝扫码                可删
+
+
+/system/priv-app
+================
+ApplicationsProvider.apk        应用数据库                不可删
+BackupRestoreConfirmation.apk        备份恢复                不可删
+Browser.apk                        浏览器                        可删
+Contacts.apk                        联络人电话本                不可删
+ContactsProvider.apk                电话本存储                不可删
+DefaultContainerService.apk        apk默认安装服务                不可删
+DownloadProvider.apk                下载                        不可删
+Email.apk                        电子邮件                可删
+Exchange2.apk                        exchange邮箱                可删
+ExternalStorageProvider.apk        外部存储                不可删
+FusedLocation.apk                定位相关                不可删
+Gallery2.apk                        图库、相机                不用的话可删
+GeofenceLocation.apk                地理围栏                不用的话可删
+GmsCore.apk                        Google服务                建议不删
+GoogleLoginService.apk                Google账号服务                建议不删
+GoogleServicesFramework.apk        Google服务                建议不删
+HiSpace.apk                        华为应用市场                可删
+HwCallRecorder.apk                通话录音                建议不删
+HwCamera.apk                        华为相机                建议不删
+HwPhoneService.apk                华为帮助                可删
+HwTelephonyCust.apk                电话相关                不可删
+HwVPlayer.apk                        播放器                        可删
+HwVideoEdit.apk                        视频编辑                可删
+HwVmall.apk                        华为商城                可删
+InCallUI.apk                        通话界面                不可删
+InputDevices.apk                输入设备管理                建议不删，否则OTG功能受影响
+Keyguard.apk                        锁屏相关                不可删
+MediaProvider.apk                媒体库                        不可删
+NetworkLocation_Baidu.apk        百度定位                不喜欢百度的可以删
+PhotoShare.apk                        云相册                        可删
+ProxyHandler.apk                代理                        不可删
+Settings.apk                        设置                        不可删
+SettingsProvider.apk                设置存储                不可删
+SharedStorageBackup.apk                共享数据备份服务        不可删        
+Shell.apk                        android权限相关                不可删
+Tag.apk                                NFC相关                        看着办
+TeleService.apk                        电话                        不可删
+VlifeKeyguard.apk                动态壁纸相关                可删
+VireLifeEngine.apk                壁纸相关                可删
+科学上网Dialogs.apk                        科学上网设置                        不可删
+WallpaperCropper.apk                设置壁纸时剪切器选择        不可删        
+widgets_qingsong.apk                桌面小工具                可删
+
+
+/system/delapp
+==================
+HwRemoteAssistant.apk                远程协助                可删
+LiveColorWallpaper.apk                动态色彩壁纸                可删
+QQBrowser.apk                        qq浏览器                可删
+Taobao.apk                        淘宝                        看着办
+TelecomDianPing.apk                电信预装...                可删        
+TelecomQYVideoClient.apk        电信预装...                可删
+TelecomQunar.apk                电信预装...                可删
+TelecomSohuTV.apk                电信预装...                可删
+TelecomUCWEB.apk                电信预装...                可删
+Telecomicity.apk                电信预装...                可删
+VireLiveWallpaper.apk                壁纸相关                可删
+VireLiveWallpaper.apk.unaligned        壁纸相关                可删
+
+
+/cust/preinstalled/public/app
+=========================
+BaiduSearch.apk                        百度搜索                可删
+ChinaTelecomCustomize.apk        电信预装...                可删
+GaodeMap.apk                        高德地图                可删
+GaodeNavi.apk                        高德导航                可删
+Huawei_Swype_for_Huawei.apk        华为swype输入法                可删
+HwFansClub.apk                        花粉俱乐部                可删
+Moffice.apk                        办公?                        可删
+QQ.apk                                QQ                        可删
+SinaWeibo.apk                        微博                        可删        
+TClient.apk                        免费WLAN                可删
+Telecom189Read.apk                电信预装...                可删
+TelecomBestPay.apk                电信预装...                可删
+TelecomBesttone.apk                电信预装...                可删
+TelecomCTAccount.apk                电信预装...                可删
+TelecomCloud189.apk                电信预装...                可删
+TelecomCtClient.apk                电信预装...                可删
+TelecomEGame.apk                电信预装...                可删
+TelecomEstore.apk                电信预装...                可删
+TelecomEsurfingVideo.apk        电信预装...                可删
+TelecomEsurfingWiFi.apk                电信预装...                可删
+TelecomMail189.apk                电信预装...                可删
+TelecomNewsReader.apk                电信预装...                可删
+TelecomNineGame.apk                电信预装...                可删
+TelecomPim.apk                        电信预装...                可删
+TelecomSurfingClientKefu.apk        电信预装...                可删
+TelecomYixin.apk                电信预装...                可删
+TelecomYueMe.apk                电信预装...                可删
