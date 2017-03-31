@@ -26,3 +26,6 @@ public void basicHttpsGetIgnoreCertificateValidation() throws Exception {
     String responseBody = readResponseBody(response);
     System.out.println(responseBody);
 }
+
+case2:上传信息到服务器
+      检查项：定位代码方法android.permission.INTERNET -> url -> 具体代码
