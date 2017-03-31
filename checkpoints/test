@@ -1,5 +1,6 @@
 case1:SSL服务端证书校验
       检查项：需要自己实现X509TrustManager的三个校验接口
+      参考：http://www.aneasystone.com/archives/2016/04/java-and-https.html
 public void basicHttpsGetIgnoreCertificateValidation() throws Exception {
     String url = "https://kyfw.12306.cn/otn/"; 
     TrustManager[] trustAllCerts = new TrustManager[] {
